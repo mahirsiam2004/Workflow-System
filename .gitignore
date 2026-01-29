@@ -39,3 +39,7 @@ lerna-debug.log*
 .turbo/
 dist/
 out/
+
+# Explicitly ignore project envs
+backend/.env
+frontend/.env.local
